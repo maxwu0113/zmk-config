@@ -68,7 +68,7 @@
             bindings = <
 &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &trans             &trans                       &trans  &trans           &trans               &trans     &trans  &trans
 &out OUT_BLE  &trans        &trans        &kp LT            &kp GT             &trans                       &trans  &trans           &kp UP               &trans     &trans  &trans
-&out OUT_USB  &kp EQUAL     &kp COLON     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans                       &trans  &kp LEFT         &kp DOWN             &kp RIGHT  &trans  &trans
+&out OUT_TOG  &kp EQUAL     &kp COLON     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans                       &trans  &kp LEFT         &kp DOWN             &kp RIGHT  &trans  &trans
 &trans        &trans        &trans        &kp HOME          &kp END            &trans  &trans       &trans  &trans  &kp LC(LS(F10))  &kp LS(LA(LC(F10)))  &trans     &trans  &trans
                                           &trans            &trans             &trans  &bootloader  &trans  &trans  &trans           &trans
             >;
